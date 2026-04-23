@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <title>ANIMACIONES 3 CSS</title>
+        <style>
+            *{
+                padding: 0px;
+                margin: 0px;
+            }
+            .contenedor{
+                width: 400px;
+                height: 200px;
+                border: 1px solid black;
+                position: relative;/* para cerrar el div */
+                margin: 0 auto;/* para cerrar el div tambien */
+
+                overflow: hidden; /* muestra solo lo interior */
+            }
+
+            .cuadrito{
+                width: 100px;
+                height: 100px;
+                background-color: rgba(255, 0, 0, 0);
+                position: absolute; /* permite mover el div dentro del contenedor */
+                
+                left: 100px;
+                top: 50px;
+            }
+            .cuadrito img{
+                width: 50px;
+                height: 50px;
+            }
+        </style>
+
+    </head>
+<body>
+    <div class="contenedor">
+        <div class="cuadrito">
+            <img src="./img/img.gif" alt="">
+        </div>
+    </div>
+</body>
+</html>
